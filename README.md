@@ -40,8 +40,8 @@ taiwan-soc-modeling/
 │  ├─ 02_predict_soc_agriculture.R
 │  └─ 03_predict_soc_forest.R
 ├─ example_data/
-SOC_data_forest
-SOC_data_agriculture
+SOCagric_20pct_dummy_for_master.csv
+SOCagric_20pct_dummy_for_master.csv
 └─ (user-added folders, not included in repo)
    ├─ prediction_inputs/
    │  ├─ agriculture/   # 14-band raster stack (60 m)
