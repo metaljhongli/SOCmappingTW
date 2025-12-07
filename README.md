@@ -17,7 +17,7 @@ This repository contains three scripts:
 
 2. **02_predict_soc_agriculture.R**  
    Applies the trained agriculture model to a 14-band raster stack  
-   and generates a 60 m SOC prediction map.
+   and generates a 30 or 60 m SOC prediction map.
 
 3. **03_predict_soc_forest.R**  
    Applies the trained forest model to individual predictor GeoTIFFs  
@@ -85,7 +85,7 @@ source("R/01_master_soc_pipeline.R")
 
 The script:
 
-- Reads `SOCagriculture_clean3.csv` and `SOCforest_clean.csv`  
+- Reads `SOCagric_20pct_dummy_for_master.csv` and `SOCforest_20pct_dummy_for_master.csv`  
 - Performs 10-fold cross-validation  
 - Computes RMSE, MAE, R², and Lin’s CCC  
 - Exports diagnostic plots  
