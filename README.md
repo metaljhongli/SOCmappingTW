@@ -98,7 +98,7 @@ It is disabled by default to match the published results.
 
 ---
 
-### **2. Predict SOC for Agriculture (60 m)**
+### **2. Predict SOC for Agriculture (30-60 m)**
 
 Ensure the directory contains:
 
@@ -186,7 +186,7 @@ and research use. See `LICENSE` for details.
 
 If you use this workflow, please cite the associated publication:
 
-**Valdez-Vásquez, M., et al. (2025). Soil organic carbon modeling across agricultural and forest landscapes in Taiwan using long-term field data, remote sensing, and Random Forest models. *Journal Name*.**
+**Syu, C.H; Valdez-Vásquez, M., et al. (2025). Soil organic carbon modeling across agricultural and forest landscapes in Taiwan using long-term field data, remote sensing, and Random Forest models. *Journal Name*.**
 
 ---
 
