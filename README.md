@@ -40,9 +40,8 @@ taiwan-soc-modeling/
 │  ├─ 02_predict_soc_agriculture.R
 │  └─ 03_predict_soc_forest.R
 ├─ example_data/
-│  ├─ dummy_predictors_agri.csv
-│  ├─ dummy_predictors_forest.csv
-│  └─ README_example_data.txt
+SOC_data_forest
+SOC_data_agriculture
 └─ (user-added folders, not included in repo)
    ├─ prediction_inputs/
    │  ├─ agriculture/   # 14-band raster stack (60 m)
@@ -154,8 +153,8 @@ SOC_pred_forest_100m.tif
 
 Because SOC field samples and predictor rasters are government-restricted and cannot be publicly released, the repository includes:
 
-example_data/predictors_agri.csv
-example_data/predictors_forest.csv
+SOC_samples_agriculture.csv
+SOC_samples_forest.csv
 
 These files contain small random datasets with the correct structure  
 (14 predictors + cell index), allowing the scripts to be executed  
@@ -195,6 +194,7 @@ If you use this workflow, please cite the associated publication:
 
 For questions or collaborations:
 
-**Miguel Valdez Vásquez**  
+**Chien-Hui Syu, Miguel Valdez Vásquez**  
+Taiwan Agriculture Research Institute, Taiwan
 National Central University, Taiwan  
 Center for Space and Remote Sensing Research (CSRSR)
